@@ -1,0 +1,19 @@
+.container{
+    justify-content: space-around;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 1rem;
+    margin: 1rem;
+    display:inline-block;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    grid-column-gap: .5rem;
+    grid-row-gap: 2rem;
+    justify-items: center;
+    margin-left: 80px;
+    background-color: black;
+ }   
+.container :hover{
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.461), 0 0 4rem rgba(36, 101, 112, 0.461), 0 0 8rem rgba(19, 69, 99, 0.461);
+    transition: 300ms;
+}

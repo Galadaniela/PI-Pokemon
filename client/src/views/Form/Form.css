@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #24303c;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .form {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .input{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-color: black;
+    
+  }
+  
+  .input{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #831fc5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+    text-align: center;
+  }
+  .btn{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: var(--clr-gray);
+    padding: .5rem;
+    border-radius: 100vmax;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .2s;
+  }
+  .error{
+    text-align: center;
+    margin-top: 5px;
+    color: rgb(223, 33, 33);
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }

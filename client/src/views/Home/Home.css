@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Wix+Madefor+Text:ital,wght@1,400;1,600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* :root{
+    --tenne-tawny: #d65108;
+    --tenne-tawny-dark: #b54507;
+} */
+.home {
+    font-weight: 300;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    background-color: rgb(66, 69, 70);
+    background-size: 100% ;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.home h1{
+    justify-content: center;
+    font-size: 4.5em;
+    height: 200px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 500px;
+    /* margin-bottom: 100px;
+    margin-left: 100px;
+     position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 1rem 0;
+    z-index: 999; */
+}
+.Create {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: var(--clr-gray);
+    padding: .5rem;
+    border-radius: 100vmax;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+   
+    transition: .2s;
+    margin-left: 500px;
+}
+.lim{
+   
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: var(--clr-gray);
+    padding: .5rem;
+    border-radius: 100vmax;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
+    transition: .2s;
+    margin-left: 500px;
+}
+ .func{
+     
+    font-family: 'Josefin Sans', sans-serif;
+   margin-left: 350px;
+     background-color: var(--clr-gray);
+    padding: .5rem;
+    border-radius: 100vmax;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
+    transition: .2s;
+    /* display: inline;
+    list-style-type: none;
+    text-align:center;
+    margin-left: 400px;
+    margin-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    position: inherit;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0%; */
+    /*
+    justify-content: center; */
+    /* position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 1rem 0;
+    z-index: 999; */
+}
+.abf{
+     font-family: 'Josefin Sans', sans-serif;
+    background-color: var(--clr-gray);
+    padding: .5rem;
+    border-radius: 100vmax;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
+    transition: .2s;
+}
+.all{
+     font-family: 'Josefin Sans', sans-serif;
+     background-color: var(--clr-gray);
+    padding: .5rem;
+    border-radius: 100vmax;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
+    transition: .2s;
+}
+.type{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 350px;
+      background-color: var(--clr-gray);
+     padding: .5rem;
+     border-radius: 100vmax;
+     cursor: pointer;
+     text-transform: uppercase;
+     font-weight: 600;
+     box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
+     transition: .2s;
+}
+
+.bar{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    font-family: inherit;
+    outline: 0;
+    text-align: center;
+    
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}

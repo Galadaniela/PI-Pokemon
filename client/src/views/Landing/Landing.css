@@ -1,0 +1,40 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@1,400;1,600&display=swap'); */
+.landing {
+    background-color: darkorange;
+    background-image: url("../../cssStyl/hoenn-pokemon-go-4k-62.jpg");
+    background-size: 100% 
+}
+.landing h1{
+    font-family: 'Wix Madefor Text', sans-serif;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4.5em;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.2; 
+     color: aliceblue;
+     box-shadow:text rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     text-decoration: underline;
+     text-shadow: rgb(84, 161, 175) 0 -2px;
+}
+
+.landing button{
+  
+   width: 200px;
+  line-height: 1.2; 
+    align-items: center;
+    justify-content: center;
+    margin:0px;
+    padding: 20px 50px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    border: 2px solid rgb(213, 233, 238);
+}
+.landing button:hover{
+    box-shadow: rgb(149, 192, 233) 180px 0px 0px 1px inset;
+    color: #fff;
+}
